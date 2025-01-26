@@ -5,8 +5,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Your Name - Web Developer Portfolio",
-  description: "Showcase of web development projects and skills",
+  title: "Ollie Pettersen - Personal Project Portfolio",
+  description: "Showcase of personal web development and software engineering projects this year so far",
 }
 
 export default function RootLayout({
@@ -16,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+      <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+      </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}

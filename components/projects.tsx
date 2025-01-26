@@ -4,25 +4,25 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const projects = [
   {
-    title: "Motekso",
-    description: "A modern web application for managing and organizing tasks efficiently.",
-    image: "/placeholder.svg",
-    techStack: ["React", "Node.js", "Express", "MongoDB"],
-    link: "https://motekso.co.uk",
+    title: "Profit Pulse",
+    description: "A service that searches for products below a certain price and sends you a notification message when they are found",
+    image: "profitpulse.png", //https://pbs.twimg.com/media/GgVVG5ZWMAA6J6i?format=png&name=900x900",
+    techStack: ["PHP", "MySQL", "Python", "Twilio", "NTFY"],
+    link: "https://profitpulse.motekso.co.uk",
   },
   {
-    title: "Portfolio Website",
-    description: "A responsive portfolio website showcasing my projects and skills.",
-    image: "/placeholder.svg",
-    techStack: ["Next.js", "Tailwind CSS", "TypeScript"],
-    link: "https://your-portfolio-url.com",
+    title: "X Tweet Scheduler",
+    description: "Preoare your X content ahead of time using this tool",
+    image: "https://motekso.co.uk/images/x-scehduler-messages.png",
+    techStack: ["PHP", "Python", "MySQL", "CSS"],
+    link: "https://github.com/ZoomRepo/x_scheduled_tweets",
   },
   {
-    title: "E-commerce Platform",
-    description: "A full-featured e-commerce platform with user authentication and payment integration.",
-    image: "/placeholder.svg",
-    techStack: ["React", "Node.js", "Express", "PostgreSQL", "Stripe"],
-    link: "https://your-ecommerce-url.com",
+    title: "Controversial Deaths",
+    description: "One of my weirder projects, this is a list of people who have died in controversial circumstances",
+    image: "https://motekso.co.uk/images/controversial-deaths.png",
+    techStack: ["PHP", "Python", "MySQL", "CSS"],
+    link: "https://controversial-deaths.motekso.co.uk",
   },
 ]
 
@@ -30,7 +30,7 @@ export default function Projects() {
   return (
     <section id="projects" className="container py-8 md:py-12 lg:py-24">
       <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-half-life-orange">Projects</h2>
-      <p className="mt-4 text-muted-foreground">Here are some of the projects I've worked on:</p>
+      <p className="mt-4 text-muted-foreground">Here are some of my personal projects I've currently been working on in my spare time this year:</p>
       <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <Card
@@ -45,7 +45,7 @@ export default function Projects() {
               className="object-cover"
             />
             <CardHeader>
-              <CardTitle className="text-deep-purple">{project.title}</CardTitle>
+              <CardTitle className="text-half-life-orange">{project.title}</CardTitle>
               <CardDescription>{project.description}</CardDescription>
             </CardHeader>
             <CardContent>

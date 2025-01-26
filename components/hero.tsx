@@ -7,12 +7,13 @@ export default function Hero() {
       <div className="container flex flex-col items-center justify-center gap-4 pb-8 pt-6 md:py-10">
         <div className="flex max-w-[980px] flex-col items-start gap-2">
           <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-            Hi, I'm Your Name <br className="hidden sm:inline" />
-            Web Developer & Designer
+            Hi, I'm Ollie Pettersen <br className="hidden sm:inline" />
+            Software Engineer & Consultant
           </h1>
           <p className="max-w-[700px] text-lg text-gray-200">
-            I create beautiful, responsive, and user-friendly websites using modern web technologies. Let's bring your
-            ideas to life!
+          With a versatile background in data engineering, web development, software engineering, and DevOps, 
+          I bring comprehensive solutions to complex challenges. 
+          Let’s build something exceptional together!
           </p>
         </div>
         <div className="flex gap-4">
