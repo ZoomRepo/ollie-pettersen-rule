@@ -31,15 +31,15 @@ export default function Header() {
             </a>
           </nav>
         </div>
-        <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
-          {/* <button
+        {/* <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
+          <button
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 w-9"
           >
             {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             <span className="sr-only">Toggle theme</span>
-          </button> */}
-        </div>
+          </button>
+        </div> */}
       </div>
     </header>
   )

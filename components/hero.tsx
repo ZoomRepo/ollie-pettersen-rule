@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="flex max-w-[980px] flex-col items-start gap-2">
           <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
             Hi, I'm Ollie Pettersen <br className="hidden sm:inline" />
-            Software Engineer & Consultant
+            Software Engineer
           </h1>
           <p className="max-w-[700px] text-lg text-gray-200">
           With a versatile background in data engineering, web development, software engineering, and DevOps, 
