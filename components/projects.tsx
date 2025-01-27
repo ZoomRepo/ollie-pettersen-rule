@@ -4,8 +4,15 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const projects = [
   {
+    title: "FlipFocus",
+    description: "Our automated market finder alerts you to items listed below market value in real-time. Turn market inefficiencies into profit with instant notifications.",
+    image: "flipfocus.png",
+    techStack: ["TypeScript", "JavaScript", "CSS", "Next.js"],
+    link: "https://flipfocus.co.uk",
+  },
+  {
     title: "Profit Pulse",
-    description: "A service that searches for products below a certain price and sends you a notification message when they are found",
+    description: "A service that searches for products below a certain price and sends you a notification message when they are found, this project was the predecesor to FlipFocus",
     image: "profitpulse.png", //https://pbs.twimg.com/media/GgVVG5ZWMAA6J6i?format=png&name=900x900",
     techStack: ["PHP", "MySQL", "Python", "Twilio", "NTFY"],
     link: "https://profitpulse.motekso.co.uk",
@@ -40,8 +47,8 @@ export default function Projects() {
             <Image
               src={project.image || "/placeholder.svg"}
               alt={project.title}
-              width={400}
-              height={200}
+              width={450}
+              height={180}
               className="object-cover"
             />
             <CardHeader>
