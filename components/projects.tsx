@@ -24,13 +24,13 @@ const projects = [
     techStack: ["PHP", "Python", "MySQL", "CSS"],
     link: "https://github.com/ZoomRepo/x_scheduled_tweets",
   },
-  {
-    title: "Controversial Deaths",
-    description: "One of my weirder projects, this is a list of people who have died in controversial circumstances",
-    image: "https://motekso.co.uk/images/controversial-deaths.png",
-    techStack: ["PHP", "Python", "MySQL", "CSS"],
-    link: "https://controversial-deaths.motekso.co.uk",
-  },
+  // {
+  //   title: "Controversial Deaths",
+  //   description: "One of my weirder projects, this is a list of people who have died in controversial circumstances",
+  //   image: "https://motekso.co.uk/images/controversial-deaths.png",
+  //   techStack: ["PHP", "Python", "MySQL", "CSS"],
+  //   link: "https://controversial-deaths.motekso.co.uk",
+  // },
 ]
 
 export default function Projects() {
